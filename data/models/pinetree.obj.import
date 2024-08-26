@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://wp7yxcmsd1ae"
+path="res://.godot/imported/pinetree.obj-2050ffe3ee8b0104086ecc41c19ca70b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pinetree.obj-2050ffe3ee8b0104086ecc41c19ca70b.mesh"]
+
+source_file="res://golf/data/models/pinetree.obj"
+dest_files=["res://.godot/imported/pinetree.obj-2050ffe3ee8b0104086ecc41c19ca70b.mesh", "res://.godot/imported/pinetree.obj-2050ffe3ee8b0104086ecc41c19ca70b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

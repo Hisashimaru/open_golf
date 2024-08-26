@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bwywf8ja4ynlm"
+path="res://.godot/imported/golf_cup.obj-cfdef7b17fd84f2864472b185d2d6bb6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/golf_cup.obj-cfdef7b17fd84f2864472b185d2d6bb6.mesh"]
+
+source_file="res://golf/data/models/golf_cup.obj"
+dest_files=["res://.godot/imported/golf_cup.obj-cfdef7b17fd84f2864472b185d2d6bb6.mesh", "res://.godot/imported/golf_cup.obj-cfdef7b17fd84f2864472b185d2d6bb6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

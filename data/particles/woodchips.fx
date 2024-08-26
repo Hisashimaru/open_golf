@@ -1,0 +1,15 @@
+max_particles = 1000
+gravity = {0.000000, -10.000000, 0.000000}
+emission_rate = 1.000000
+emission_count = 43
+start_size = {0.150000, 0.720000}
+start_speed = {1.000000, 3.560000}
+start_rotation = {1.000000, 360.000000}
+start_rotation_speed = {0.000000, 303.200012}
+life_time = {1.830000, 2.210000}
+color = {1.000000, 1.000000, 1.000000, 1.000000}
+material = "particle_woodchip"
+shape_type = 0
+shape_radius = 0.000000
+shape_angle = 0.000000
+active = 0

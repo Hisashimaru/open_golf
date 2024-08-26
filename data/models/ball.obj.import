@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://j0nvvvii1v3o"
+path="res://.godot/imported/ball.obj-fd2086abe14b44b6179315ceb67c0dee.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ball.obj-fd2086abe14b44b6179315ceb67c0dee.mesh"]
+
+source_file="res://golf/data/models/ball.obj"
+dest_files=["res://.godot/imported/ball.obj-fd2086abe14b44b6179315ceb67c0dee.mesh", "res://.godot/imported/ball.obj-fd2086abe14b44b6179315ceb67c0dee.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

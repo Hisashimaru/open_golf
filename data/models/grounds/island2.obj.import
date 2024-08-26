@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c6b10twpipdk"
+path="res://.godot/imported/island2.obj-ca9ee802c82ae2b7d83cdb6343a488fd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/island2.obj-ca9ee802c82ae2b7d83cdb6343a488fd.mesh"]
+
+source_file="res://golf/data/models/grounds/island2.obj"
+dest_files=["res://.godot/imported/island2.obj-ca9ee802c82ae2b7d83cdb6343a488fd.mesh", "res://.godot/imported/island2.obj-ca9ee802c82ae2b7d83cdb6343a488fd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

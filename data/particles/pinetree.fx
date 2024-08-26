@@ -1,0 +1,14 @@
+max_particles = 1000
+gravity = {0.000000, -10.000000, 0.000000}
+emission_rate = 1.000000
+emission_count = 200
+start_size = {1.000000, 2.000000}
+start_speed = {1.000000, 1.000000}
+start_rotation = {1.000000, 360.000000}
+start_rotation_speed = {0.000000, 300.000000}
+life_time = {3.000000, 3.000000}
+color = {1.000000, 1.000000, 1.000000, 1.000000}
+material = "particle_pinetree"
+shape_type = 1
+shape_radius = 3.000000
+shape_angle = 0.000000

@@ -1,0 +1,151 @@
+materials = {
+    ball = {
+        texture = "data/models/ball.png"
+        queue = -2
+    }
+
+    ball_red = {
+        texture = "data/models/ball.png"
+        color = {1, 0.5, 0.5, 1}
+        queue = -2
+    }
+
+    ball_blue = {
+        texture = "data/models/ball.png"
+        color = {0.9, 0.9, 0.3, 1}
+        queue = -2
+    }
+
+    golf_cup = {
+        texture = "data/models/golf_cup.png"
+        queue = -2
+    }
+
+    golf_cup_mask = {
+        mode = "depthmask"
+        queue = -1
+    }
+
+    ground = {
+        texture = "data/models/grounds/ground.png"
+    }
+
+    trunk = {
+        texture = "data/models/trunk.png",
+    }
+
+    pine_leaves = {
+        texture = "data/models/pine_leaves.png",
+    }
+
+    pinetree = {
+        texture = "data/models/pinetree.png"
+        mode = "cutout"
+    }
+
+    grass = {
+        texture = "data/models/grass.png"
+        mode = "cutout"
+    }
+
+    particle_grass = {
+        type = "unlit_billboard"
+        texture = "data/textures/particle_grass.png"
+        mode = "cutout"
+    }
+
+    particle_pinetree= {
+        type = "unlit_billboard"
+        texture = "data/particles/pinetree.png"
+        mode = "cutout"
+    }
+
+    particle_wood = {
+        type = "unlit_billboard"
+        texture = "data/particles/wood.png"
+        mode = "cutout"
+    }
+
+    particle_woodchip = {
+        type = "unlit_billboard"
+        texture = "data/particles/woodchip.png"
+        mode = "cutout"
+    }
+
+    player = {
+        texture = "data/models/player.png"
+    }
+
+    player2 = {
+        texture = "data/models/player2.png"
+    }
+
+    skybox = {
+        texture = "data/models/skybox.png"
+        queue = -3
+        zwrite = 0
+    }
+}
+
+
+models = {
+    ball = {
+        materials = {"ball"}
+        mesh = "data/models/ball.obj"
+    }
+
+    ball_red = {
+        materials = {"ball_red"}
+        mesh = "data/models/ball.obj"
+    }
+
+    ball_blue = {
+        materials = {"ball_blue"}
+        mesh = "data/models/ball.obj"
+    }
+
+    golf_cup = {
+        materials = {"golf_cup"}
+        mesh = "data/models/golf_cup.obj"
+    }
+
+    golf_cup_mask = {
+        materials = {"golf_cup_mask"}
+        mesh = "data/models/golf_cup_mask.obj"
+    }
+
+    ground01 = {
+        materials = {"ground"}
+        mesh = "data/models/grounds/island2.obj"
+    }
+
+    pine_tree = {
+        materials = {"trunk", "pine_leaves"},
+        mesh = "data/models/pine_tree.smd",
+    }
+
+    pinetree_log = {
+        materials = {"pinetree"}
+        mesh = "data/models/pinetree_log.obj"
+    }
+
+    tree = {
+        materials = {"pinetree"}
+        mesh = "data/models/pinetree.obj"
+    }
+
+    grass = {
+        materials = {"grass"}
+        mesh = "data/models/grass.obj"
+    }
+
+    player = {
+        materials = {"player"}
+        mesh = "data/models/player_smd.smd"
+    }
+
+    skybox = {
+        materials = {"skybox"}
+        mesh = "data/models/skybox.obj"
+    }
+}

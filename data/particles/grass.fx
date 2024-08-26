@@ -1,0 +1,15 @@
+max_particles = 1000
+gravity = {0.000000, -15.000000, 0.000000}
+emission_rate = 1.000000
+emission_count = 20
+start_size = {0.440000, 0.630000}
+start_speed = {1.060000, 1.460000}
+start_rotation = {1.000000, 360.000000}
+start_rotation_speed = {0.000000, 0.000000}
+life_time = {1.000000, 1.000000}
+color = {1.000000, 1.000000, 1.000000, 1.000000}
+material = "particle_grass"
+shape_type = 2
+shape_radius = 1.000000
+shape_angle = 0.000000
+active = 0

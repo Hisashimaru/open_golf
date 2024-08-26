@@ -1,0 +1,55 @@
+// Model Flags
+#define SMD_VERTEX_COLOR	1
+#define SMD_VERTEX_UV2		2
+#define SMD_VERTEX_SKINNED	4
+
+
+
+u8 signature[4] // SMDL
+u8 version
+u32 model_count
+u32 model_offset[model_count]
+
+// Models
+models[model_count]
+    u32 model_name_count
+    u8 model_name[model_name_count]
+    u32 vertex_count
+    u32 submesh_count
+    u8 flags // VERTEX_COLOR = 1, SKINED_MESH = 2
+    vec3 position[vertex_count]
+    vec3 normal[vertex_count]
+    vec2 uv[vertex_count]
+
+    // the flag has VERTEX_COLOR
+    vec4 color[vertex_count]
+
+    // the flag has SKINED_MESH
+    vertex_weight[vertex_count]
+        u8 bone_id[4]
+        f32 bone_weight[4]
+
+    submesh[submesh_count]
+        u32 index_count
+        u32 indices[index_count]
+
+    u8 bone_count
+    bones[bone_count]
+        u32 name_count
+        u8 name[name_count]
+        mat4 local_matrix
+        u8 children_count
+        u8 children_id[children_count]
+
+    // Animations
+    u32 animation_count
+    animations[animation_count]
+        u32 name_count
+        u8 name[name_count]
+        u32 frame_rate
+        u32 frame_count
+        keys[bone_count]
+            transform[frame_count]
+                vec3 position
+                quat rotation
+                vec3 scale
